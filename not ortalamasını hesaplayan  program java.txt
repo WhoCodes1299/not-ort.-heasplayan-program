@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+    public class Main {
+        public static public static void main(String[] args) {
+            int mat, fizik, kimya;  // Değişkenimizi tanımladık
+            Scanner inp = new Scanner(System.in);  // Scanner sınıfımızı tanımladık
+            // Kullanıcıdan değeri al
+            System.out.print("Mat notunuz: ");
+            mat = inp.nextInt();
+
+            System.out.print("Fizik notunuz: ");
+            fizik = inp.nextInt();
+
+            System.out.print("kimya notunuz: ");
+            kimya = inp.nextInt();
+
+            int toplam = (mat + fizik + kimya)
+            double sonuc = toplam / 3.0;
+            System.out.println(sonuc);
+        }
+
+}
